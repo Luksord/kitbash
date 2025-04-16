@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  background-color: white;
+}
+
+.gap {
+  background-color: white;
+  height: 100px;
+}

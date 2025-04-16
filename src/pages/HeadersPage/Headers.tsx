@@ -1,4 +1,5 @@
-import css from './Home.module.css';
+import { Header2 } from '../../components/Header2/Header2/Header2';
+import css from './Headers.module.css';
 
 export const Headers = () => {
   return (
@@ -6,7 +7,7 @@ export const Headers = () => {
       <div className={css.header}>
         <h2 className={css.title}>Headers</h2>
       </div>
-
+      <Header2 />
       <div className={css.gap} />
     </div>
   );
